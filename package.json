@@ -1,6 +1,6 @@
 {
-  "name": "rx-easy-cache",
-  "version": "1.1.0",
+  "name": "@gustavo-r-oliveira/rx-easy-cache",
+  "version": "1.1.1",
   "description": "An easy and non-bureaucratic way to cache call responses in your project.",
   "main": "index.js",
   "types": "dist/index.d.js",
@@ -18,7 +18,9 @@
     "store",
     "cache",
     "http-cache",
-    "http-store"
+    "http-store",
+    "rxjs-cache",
+    "rxjs-store"
   ],
   "author": "gustavo-r-oliveira",
   "license": "MIT",
