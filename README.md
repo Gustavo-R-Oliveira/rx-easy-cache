@@ -53,7 +53,7 @@ getData({ recall, request }: RxEasyCacheReq<number>): Observable<DataResponseInt
 
   const CACHE = {
     funcName: this.getData.name,
-    httpCall,
+    httpCall: HTTP_CALL,
     request,
     recall,
   };
@@ -74,7 +74,7 @@ getData({ recall, request }: RxEasyCacheReq<number>): Observable<DataResponseInt
 
   const CACHE = {
     funcName: this.getData.name,
-    httpCall,
+    httpCall: HTTP_CALL,
     request,
     recall,
   };
@@ -93,7 +93,7 @@ getData({ recall, request }: RxEasyCacheReq<number>): Observable<DataResponseInt
 
   const CACHE = {
     funcName: this.getData.name,
-    httpCall,
+    httpCall: HTTP_CALL,
     request,
     recall,
   };
